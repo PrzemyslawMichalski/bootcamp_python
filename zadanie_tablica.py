@@ -1,5 +1,3 @@
-
-
 print ("podaj mi liczbę X i Y, a powiem Ci czy zmieścisz się na planszy: ")
 x = input("tutaj podaj liczbę x: ")
 y = input("tutaj podaj licznę y: ")
