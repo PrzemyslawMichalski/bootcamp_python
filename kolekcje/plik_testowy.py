@@ -1,6 +1,6 @@
-print ("podaj mi liczbę X i Y, a powiem Ci czy zmieścisz się na planszy: ")
-x = input("tutaj podaj liczbę x: ")
-y = input("tutaj podaj licznę y: ")
+
+
+x, y = -1, 50
 
 if x > 100 or x < 0 or y > 100 or y < 0:
     print("Jesteś poza planszą")
@@ -22,3 +22,4 @@ elif y < 10:
     print("Jeteś na DK")
 else:
     print("Jesteś w Centrum")
+
