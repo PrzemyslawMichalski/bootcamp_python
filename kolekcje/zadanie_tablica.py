@@ -28,3 +28,4 @@ elif y < 10:
     print("Jeteś na dolnej krawędzi")
 else:
     print("Jesteś w Centrum")
+

@@ -12,16 +12,16 @@ gracz_y = random.randint(1, 10)
 skarb_x = random.randint(1, 10)
 skarb_y = random.randint(1, 10)
 
-print("polożenie gracza", gracz_x, gracz_y)
-print("położenie skarbu", skarb_x, skarb_y)
+# print("polożenie gracza", gracz_x, gracz_y)
+# print("położenie skarbu", skarb_x, skarb_y)
 
 odległość_po_wylosowaniu = abs(skarb_x - gracz_x) + abs(skarb_y - gracz_y)
 print('to jest odległość od twojego skarbu: ', odległość_po_wylosowaniu)
 
 if DEBUG:
-    print(f'położenie gracza (x={gracz_x}, y={gracz_y})')
-    print(f'położenie skarbu (x={skarb_x}, y={skarb_y})')
-    print(f"minimalna liczba ruchów = {odległość_po_wylosowaniu}")
+   # print(f'położenie gracza (x={gracz_x}, y={gracz_y})')
+   # print(f'położenie skarbu (x={skarb_x}, y={skarb_y})')
+   # print(f"minimalna liczba ruchów = {odległość_po_wylosowaniu}")
 
 while True:
     ruch = input('wpisz komendę (a-lewo, d-prawo, w-góra, s-dół)')
