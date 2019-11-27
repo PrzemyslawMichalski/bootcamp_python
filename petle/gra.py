@@ -21,14 +21,17 @@ if DEBUG:
 
 print("""
 Witaj!
+
 Twoim zadaniem jest odnalezienie Skarbu!
 Możesz się poruszać wpisując komendy:
 w - góra
 s - dół
 a - lewo
 d - prawo
+
 Uważaj! Możesz wypaść poza planszę. 
 Po każdy ruchu możesz dostać informację o tym czy się zbliżasz czy oddalasz
+
 Zaczynamy!
 """)
 liczba_ruchow = 0
@@ -116,20 +119,28 @@ To jest plansza bez gracza
 0000
 0000
 0000
+
 Plansza z grczem:
 0000
 00G0
 0000
 0000
+
 wcisam s:
 0000
 0000
 00G0
 0000
+
 ide w lewo i trafiam na skarb
 0000
 0000
 0S00
 0000
+
 plansza = [[0,0,0,0],[0,0,0,0],[0,S,0,0],[0,0,0,0]]
+
+
+
 """
+

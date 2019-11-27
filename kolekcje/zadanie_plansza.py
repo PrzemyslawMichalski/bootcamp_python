@@ -1,6 +1,4 @@
-
-
-x, y = -1, 50
+x, y = 50, 50
 
 if x > 100 or x < 0 or y > 100 or y < 0:
     print("Jesteś poza planszą")
@@ -22,4 +20,3 @@ elif y < 10:
     print("Jeteś na DK")
 else:
     print("Jesteś w Centrum")
-

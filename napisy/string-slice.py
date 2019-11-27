@@ -1,26 +1,32 @@
-s = "hello!"
-print(s[0:4]) #cztery znaki
-print(s[-3]) #3-ci znak od końca
+#
+# array slicing
+#
+s = "Hello!"
 
-s = "ruda tanczy jak szalona"
+print(s[0]) # H
+print(s[-2])
+print(s[0:5]) #od indeksu 0 do 4 włacznie
+print(s[-3]) #3-ci znak od konca
+
+s = "Ruda tańczy jak szalona"
 arr = s.split(" ")
-print(arr)
-print(arr[3])
-print(s[0:16:2]) #od 0 do 16 co drugie
-print(s[::3]) #wszystkie stringi co 3-ci
+print(arr) # pierwszy element listy
 
-print(s[::-1]) #revers napisy
+print(s[0:16:2]) #co 2-znak od indeksu 0 do 15 włacznie
+print(s[::3]) #caly string co 3-ci znak
 
+# Grande finale
+# reverse w Pythonie
+print(s[::-1])
 
-print("hello" + " world!")
+print("Hello" + "World!")
+a = "Hello"
+b = "ALX"
 
-a = "cokolwiek"
-b = "napiszę"
-print(f"{a} {b}")
-print(f"{a} {b}")
+# print(f"{a} {b} {1+2}")
+# print("{} {} {}".format(a, b, 5+7))
 
-x = input("podaj watość x")
-print(x, type(x))
-
-
+# x = int(input("Podaj wartość x: "))
+# # x = int(x)
+# print(x, type(x))
 

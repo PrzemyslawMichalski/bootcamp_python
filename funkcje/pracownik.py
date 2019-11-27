@@ -1,14 +1,20 @@
-def utworz_pracowika(imie, nazwisko, email='info@firma.pl', telefon=None):
-    pracownik = dict()
-    pracownik['imie'] = imie
-    pracownik['nazwisko'] = nazwisko
-    pracownik['email'] = email
-    pracownik['telefon'] = telefon
+"""
+Tworzenie rekordu pracownika
+2 parametry obowiązkowe, 2 opcjonalne
+Ma zwrócić zmienną typu słownik
+"""
 
+def utworz_pracownika(imie, nazwisko, email="info@firma.pl", telefon=None):
+    pracownik = dict()
+    pracownik["imie"] = imie
+    pracownik["nazwisko"] = nazwisko
+    pracownik["email"] = email
+    pracownik["telefon"] = telefon
     return pracownik
 
-
-print(utworz_pracowika("Jan", "Kowalski"))
-print(utworz_pracowika('adam', 'nowa', 'anowak@firm.pl', '5556643'))
-print(utworz_pracowika('jan', 'zielisnki', telefon='888666888'))
-print(utworz_pracowika('jan', 'zielisnki', email='cos@wp.pl'))
+print(utworz_pracownika("Jan","Kowalski"))
+print(utworz_pracownika("Adam","Nowak", "anowak@firma.pl", "501234567"))
+print(utworz_pracownika("Jan","Zieliński", telefon="601602603" ))
+print(utworz_pracownika("Jan","Zieliński", email="jzielinski@firma.pl" ))
+print(utworz_pracownika("Jan","Zieliński", "jzielinski@firma.pl" ))
+print(utworz_pracownika("Jan","Zieliński", telefon="601602603", email="jz@firma.pl" ))

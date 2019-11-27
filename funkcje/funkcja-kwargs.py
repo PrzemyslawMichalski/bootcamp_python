@@ -1,4 +1,11 @@
-def fun_parametry(**kwargs):
-    print(kwargs)
+"""
+Przekazywanie listy parametrów nazwanych
+"""
 
-fun_parametry(imie='Jan', nazwisko='kowalski', email='www@wp.pl', wiek=44)
+def fun_parametry(nr, **kwargs):
+    print("nr pracownika=",nr)
+    print("Imie: ",kwargs.get("imie",'-brak-'))
+
+fun_parametry(102, imie="Jan", nazwisko="Kowalski",
+              email="jk@firma.pl", wiek=44)
+
